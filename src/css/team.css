@@ -31,9 +31,7 @@ img {
 }
 .team-section {
   /* LAYOUT */
-  max-width: 275px;
-  padding: 64px 16px;
-  margin: 0 auto;
+  padding: 64px 0;
 }
 .team-text {
   /* STYLE */
@@ -128,10 +126,13 @@ img {
   display: flex;
   gap: 14px;
 }
+svg {
+  fill: #111;
+  stroke: #fff;
+}
 @media screen and (min-width: 768px) {
   .team-section {
-    max-width: 768px;
-    padding: 40px 32px;
+    padding: 40px 0;
   }
   .team-text {
     margin-bottom: 16px;
@@ -157,8 +158,7 @@ img {
 }
 @media screen and (min-width: 1336px) {
   .team-section {
-    max-width: 1440px;
-    padding: 112px 64px;
+    padding: 112px 0;
   }
   .team-description {
     margin-bottom: 40px;
