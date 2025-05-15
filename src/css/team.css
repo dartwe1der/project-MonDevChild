@@ -1,0 +1,150 @@
+html {
+    scroll-behavior: smooth;
+  }
+  /* GENERAL STYLE */
+  body {
+    background-color: #ffffff;
+    line-height: 1.5;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #434455;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  img {
+    display: block;
+  }
+  .team-section {
+    /* LAYOUT */
+    max-width: 275px;
+    padding: 64px 16px;
+    margin: 0 auto;
+  }
+  .team-text {
+    /* STYLE */
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0d0b0a;
+    /* LAYOUT */
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .team-header {
+    /* STYLE */
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #0d0b0a;
+    /* LAYOUT */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .team-description {
+    /* STYLE */
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #0d0b0a;
+    /* LAYOUT */
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .team-list {
+    /* LAYOUT */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .team-member {
+    /* LAYOUT */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    max-width: 343px;
+  }
+  .team-member img {
+    /* LAYOUT */
+    border-radius: 16px;
+    max-width: 343px;
+    max-height: 221px;
+  }
+  .team-member-name {
+    /* STYLE */
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #0d0b0a;
+    /* LAYOUT */
+    text-align: center;
+  }
+  .team-member-position {
+    /* STYLE */
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #0d0b0a;
+    /* LAYOUT */
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .team-member-skill {
+    /* STYLE */
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #0d0b0a;
+    /* LAYOUT */
+    text-align: center;
+  }
+  .team-member-socials {
+    /* LAYOUT */
+    justify-content: center;
+    display: flex;
+    gap: 14px;
+  }
+  @media screen and (min-width: 768px) {
+      .team-section {
+        max-width: 768px;
+      }
+      .team-header {
+          font-size: 52px;
+          margin-bottom: 24px;
+      }
+    .team-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap:24px;
+    }
+   .team-member {
+      gap:24px;
+   }
+    .team-member-position {
+      margin-bottom: 16px;
+    }
+  }
