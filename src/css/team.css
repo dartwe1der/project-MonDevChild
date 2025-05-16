@@ -106,9 +106,14 @@ html {
   display: flex;
   gap: 14px;
 }
-svg {
-  fill: #111;
-  stroke: #fff;
+.team-social-icon {
+  fill: #0d0b0a;
+  stroke: whitesmoke;  
+}
+.team-social-linl:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
+  fill: blue;
+  stroke: whitesmoke;      
 }
 @media screen and (min-width: 768px) {
   .container {
