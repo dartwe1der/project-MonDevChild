@@ -17,9 +17,7 @@ header .burger-button {
 
 /*-----------mobile-------------*/
 
-header .container {
-  max-width: 375px;
-  margin: 0 auto;
+.layout-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,11 +76,6 @@ header .extra-text {
 
 /*------------------tablet-------------*/
 @media screen and (min-width: 768px) {
-  header .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
   header .burger-menu-container {
     max-width: 278px;
   }
@@ -106,12 +99,11 @@ header .extra-text {
 }
 
 /*-----------------desktop-------------*/
-@media screen and (min-width: 1326px) {
-  header .container {
-    max-width: 1440px;
-    padding: 0 64px;
+@media screen and (min-width: 1336px) {
+  .layout-header {
+    max-width: 1312px;
+    width: 100%;
   }
-
   header .burger-menu-container {
     display: none;
   }
