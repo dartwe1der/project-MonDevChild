@@ -33,17 +33,20 @@
   color: #0d0b0a;
   margin-bottom: 32px;
 }
-.testimonials-svg-container {
+.testimonials-avatar-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
-.testimonials-svg-name {
+.testimonials-avatar-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.6;
   text-align: center;
+}
+.avatar {
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 768px) {
