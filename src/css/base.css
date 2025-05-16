@@ -19,7 +19,7 @@
 ::before,
 ::after {
   box-sizing: border-box;
-  padding: auto;
+  padding: 0;
 }
 
 html {
