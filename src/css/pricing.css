@@ -16,8 +16,14 @@ li {
     list-style-type: none;
 }
 
-
-
+.container-pricing {
+    width: 100%;
+    max-width: 375px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 16px;
+}
 
 @media screen and (min-width: 768px) {
     .container-pricing {
