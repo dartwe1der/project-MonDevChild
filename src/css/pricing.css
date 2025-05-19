@@ -80,6 +80,7 @@ li {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    background: #f2fafa;
 }
 
 .pricing-box {
