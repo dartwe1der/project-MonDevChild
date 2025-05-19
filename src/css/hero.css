@@ -19,6 +19,8 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 0px;
+  background-color: #f2fafa;
+  box-sizing: border-box;
 }
 .hero-content {
   display: flex;
