@@ -157,6 +157,8 @@ html {
   .team-list {
     column-gap: 24px;
     row-gap: 64px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .team-member {
     flex-basis: calc((100% - 72px) / 3);
