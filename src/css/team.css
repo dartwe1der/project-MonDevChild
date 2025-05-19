@@ -157,7 +157,6 @@ html {
   .team-list {
     column-gap: 24px;
     row-gap: 64px;
-    max-width: 1128px;
     margin-left: auto;
     margin-right: auto;
   }
