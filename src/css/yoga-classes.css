@@ -2,109 +2,274 @@
 /*section 1*/
 
 .yoga-programs {
-    background-color: #F2FAFA;
-    padding: 112px 64px;
-    text-align: center;
-    font-family: 'Cabin', sans-serif;
+    padding: 64px 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: #DFEBEB;
 }
 
-/* Верхній блок */
+/* Центрування секції */
 .section-top {
-    max-width: 768px;
-    margin: 0 auto 56px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+
 }
 
 .section-label {
+    font-family: "Sarabun", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
+    text-align: center;
     color: #0D0B0A;
-    margin-bottom: 16px;
+
+    margin-bottom: 12px;
 }
 
+
+
+
+/* Заголовок */
 .section-title {
+    font-family: "Cabin";
     font-weight: 400;
-    font-size: 52px;
+    font-size: 40px;
     line-height: 120%;
     letter-spacing: 0.01em;
+    text-align: center;
     color: #0D0B0A;
-    margin-bottom: 24px;
-}
-
-.section-description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
-    color: #0D0B0A;
-}
-
-/* Список програм */
-.programs-list {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: stretch;
-    list-style: none;
-    padding: 0;
-    margin: 0 0 48px;
-    flex-wrap: wrap;
-    /* щоб на мобільних було перенесення */
-}
-
-.programs-list-item {
-    flex: 1 1 300px;
-    /* мінімальна ширина 300px, розтягується */
-    max-width: 320px;
-}
-
-/* Картка програми */
-.program-card {
     width: 100%;
-    max-width: 704px;
-    background: #fff;
-    border-radius: 12px;
-    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* Параграф */
+.section-description {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #0D0B0A;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+.programs-list {
+    gap: 48px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    text-align: left;
+    flex-wrap: wrap;
+    
+    margin-bottom: 48px;
+}
+
+.program-card {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .yoga-img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 8px;
+    border-radius: 16px;
+    height: 362px;
+    margin-bottom: 24px;
+   
 }
 
 .yoga-card-title {
+    font-family: "Cabin";
     font-weight: 400;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 140%;
-    margin: 24px 0 16px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0D0B0A;
+    margin-bottom: 20px;
 }
 
 .yoga-par {
+    font-family: "Sarabun";
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
+    text-align: center;
     color: #0D0B0A;
-    margin-bottom: 0;
+    justify-content: flex-end;
 }
+
 
 /* Кнопка */
 .btn-yoga {
-    font-family: "Sarabun";
-    background-color: #C2D9FC;
-    color: #0D0B0A;
-    border: none;
-    border-radius: 100px;
-    width: 130px;
-    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    margin: 0 auto;
-    display: block;
-    font-weight: 600;
+    text-align: center;
+    overflow: hidden;
+
+    font-family: "Cabin";
+    font-weight: 500;
     font-size: 16px;
+    line-height: 160%;
+    color: #0D0B0A;
+
+    border: 1px solid #C2D9FC;
+    border-radius: 100px;
+    padding: 10px 16px;
+    width: 100%;
+    max-width: 343px;
+    height: 46px;
+
+    margin: 0 auto;
+    background-color: #C2D9FC;
+}
+
+.btn-span {
+    display: none;
+}
+
+
+
+/* Наведення */
+.btn-yoga:hover,
+.btn-yoga:focus {
+    background-color: #F2F7FE;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .yoga-programs {
+        background-color: #F2FAFA;
+        padding: 40px 32px;
+    }
+
+    .section-title {
+        font-size: 48px;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .section-description {
+        max-width: 540px;
+        justify-content: center;
+    }
+
+    .programs-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .programs-list-item {
+        width: calc((100% - 24px) / 2);
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .programs-list-item-tablet {
+width: 100%;
+    }
+
+   /* .tablet-img {
+        max-width: 100% 
+    }*/
+
+
+
+
+    .yoga-img {
+        width: 100%;
+    }
+
+   /* .picture {
+        justify-content: center;
+       
+    }*/
+
+
+    .yoga-par {
+        justify-content: flex-end;
+    }
+
+
+
+    .btn-span {
+        display: inline;
+        margin-left: 6px;
+    }
+
+    .btn-yoga {
+        padding: 10px 24px;
+        width: 110px;
+        height: 46px;
+        background-color: #C2D9FC;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1336px) {
+    .container {
+        max-width: 1336px;
+        margin: 0 auto;
+    }
+
+
+    .section-title {
+        font-size: 48px;
+        justify-content: center;
+    }
+
+    .section-description {
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    .programs-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 48px;
+    }
+
+
+    .programs-list-item {
+        width: calc((100% - 96px) / 3);
+        /* 3 колонки з 2 проміжками */
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-yoga {
+        padding: 10px 24px;
+        width: 110px;
+        height: 46px;
+        background-color: #C2D9FC;
+    }
+
+    .btn-span {
+        display: inline;
+        margin-left: 6px;
+    }
 }
