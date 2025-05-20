@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="../css/modal-window.css" />
   </head>
   <body>
-    <div class="backdrop is-open">
+    <div class="backdrop" data-modal="modal1">
       <div class="modal">
         <div class="modal-close-btn-div">
-          <button class="modal-close-btn" type="button" data-modal-close>
+          <button class="modal-close-btn" type="button" data-modal-close="modal1">
             <svg class="modal-close-icon" width="32" height="32">
-              <use href="/src/images/icons.svg#icon-close"></use>
+              <use href="/images/icons.svg#icon-close"></use>
             </svg>
           </button>
         </div>
@@ -78,12 +78,12 @@
     </div>
 
     
-    <div class="backdrop">
+    <div class="backdrop" data-modal="modal2">
       <div class="modal">
         <div class="modal-close-btn-div">
-          <button class="modal-close-btn" type="button" data-modal-close>
+          <button class="modal-close-btn" type="button" data-modal-close="modal2">
             <svg class="modal-close-icon" width="32" height="32">
-              <use href="/src/images/icons.svg#icon-close"></use>
+              <use href="/images/icons.svg#icon-close"></use>
             </svg>
           </button>
         </div>
@@ -147,12 +147,12 @@
 
 
 
-    <div class="backdrop">
+    <div class="backdrop" data-modal="modal3">
       <div class="modal">
         <div class="modal-close-btn-div">
-          <button class="modal-close-btn" type="button" data-modal-close>
+          <button class="modal-close-btn" type="button" data-modal-close="modal3">
             <svg class="modal-close-icon" width="32" height="32">
-              <use href="/src/images/icons.svg#icon-close"></use>
+              <use href="/images/icons.svg#icon-close"></use>
             </svg>
           </button>
         </div>
