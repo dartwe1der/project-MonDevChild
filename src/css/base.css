@@ -16,8 +16,19 @@
   -webkit-text-size-adjust: 100%;
 }
 
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
+  align-items: center;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
@@ -26,7 +37,4 @@ body {
 
 main {
   flex-grow: 1;
-}
-main:has(.back-link) {
-  text-align: center;
 }
