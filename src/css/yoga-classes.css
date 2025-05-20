@@ -59,6 +59,8 @@
 
 /* Картка програми */
 .program-card {
+    width: 100%;
+    max-width: 704px;
     background: #fff;
     border-radius: 12px;
     padding: 16px;
