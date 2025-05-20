@@ -20,6 +20,7 @@
 ::after {
   box-sizing: border-box;
   padding: auto;
+  margin: 0;
 }
 
 html {

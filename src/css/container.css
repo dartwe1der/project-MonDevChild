@@ -1,5 +1,6 @@
 /* Styles for Mobile devices */
 .container {
+  justify-content: center;
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
@@ -8,6 +9,7 @@
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
+    justify-content: center;
     max-width: 768px;
     margin: 0 auto;
     padding-left: 32px;
@@ -17,6 +19,7 @@
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1336px) {
   .container {
+    justify-content: center;
     max-width: 1440px;
     margin: 0 auto;
     padding-left: 64px;
