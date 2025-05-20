@@ -1,0 +1,228 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+}
+
+.backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    max-width: 343px;
+    min-width: 280px;
+    max-height: 90vh;
+    padding: 16px;
+    overflow-y: auto;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background: #dfebeb;
+    transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop:not(.is-open) .modal {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: #dfebeb;
+    width: 100%;
+}
+
+.modal-join {
+    margin-top: 48px;
+    margin-bottom: 32px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: center;
+    color: #0d0b0a;
+}
+
+.modal-session {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+    margin: 0 auto;
+}
+
+.modal-cost {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    color: #0d0b0a;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.modal-form-name {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0d0b0a;
+    width: 100%;
+    max-width: 319px;
+}
+
+.modal-form {
+    width: 100%;
+    max-width: 375px;
+}
+
+.modal-form-input {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    padding-left: 12px;
+    width: 100%;
+    max-width: calc(100% - 16px);
+    height: 42px;
+    background: rgba(13, 11, 10, 0.05);
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0d0b0a;
+}
+
+.modal-form-input::placeholder {
+    color: rgba(13, 11, 10, 0.4);
+}
+
+.modal-checkout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 100%;
+    max-width: 343px;
+    height: 46px;
+    background: #c2d9fc;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0d0b0a;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .modal {
+        max-width: 672px;
+        height: 573px;
+    }
+
+    .modal-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .modal-checkout-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal-form-input {
+        max-width: 248px;
+        height: 42px;
+    }
+
+    .modal-form-div-two {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 37px;
+    }
+
+    .modal-join {
+        font-size: 40px;
+    }
+
+    .modal-cost {
+        font-size: 44px;
+    }
+
+    .modal-form {
+        max-width: 520px;
+    }
+
+    .modal-form-input {
+        max-width: 520px;
+        width: 100%;
+    }
+
+    .modal-checkout {
+        width: 100%;
+        max-width: 203px;
+    }
+
+}
+
+@media screen and (min-width: 1336px) {
+    .modal {
+        max-width: 736px;
+        height: 573px;
+        margin: 0 auto;
+    }
+
+    .modal-form {
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    .modal-form-div {
+        max-width: none;
+    }
+
+    .modal-form-input-name {
+        width: 640px;
+        max-width: none;
+    }
+
+    .modal-form-input-email,
+    .modal-form-input-phone {
+        width: 292px;
+    }
+
+}
