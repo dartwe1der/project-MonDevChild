@@ -22,6 +22,8 @@
 }*/
 .hero-span {
   display: none;
+  background-color: #f2fafa;
+  box-sizing: border-box;
 }
 
 /*.hero-container {
