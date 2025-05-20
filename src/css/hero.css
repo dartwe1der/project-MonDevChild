@@ -13,13 +13,14 @@
     background-image: url(/images/hero/hero_image_mob2.jpg);
   }
 }
-/*.hero {
+.hero-container {
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   gap: 0px;
-}*/
+}
 .hero-span {
   display: none;
   background-color: #f2fafa;
