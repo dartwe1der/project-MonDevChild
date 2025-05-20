@@ -14,11 +14,14 @@
   }
 }
 .hero-container {
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   gap: 0px;
+  background-color: #f2fafa;
+  box-sizing: border-box;
 }
 .hero-content {
   display: flex;

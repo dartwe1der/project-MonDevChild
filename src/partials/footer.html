@@ -1,15 +1,93 @@
-<footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+<footer>
+  <div class="layout-footer">
+    <form class="subscription-form">
+      <svg width="84" height="36">
+        <use href="./images/icons.svg#icon-yogastudio"></use>
+      </svg>
+      <label class="form-label" for="email"
+        >Subscribe to our newsletter for the latest updates on our yoga courses
+        and events.
+      </label>
+      <div class="input-section">
+        <div class="input-group">
+          <input
+            class="input-email"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email here"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+
+          <button type="submit" class="button-join">Join</button>
+        </div>
+        <p class="privacy-policy">
+          By subscribing, you consent to our Privacy Policy and agree to receive
+          updates.
+        </p>
+      </div>
+      <p class="desktop-subscript">
+        &copy; 2025 Yoga Studio. All rights reserved.
+      </p>
+    </form>
+
+    <div class="info-block">
+      <nav class="navigation-section">
+        <h2 class="heading">Quick Links</h2>
+        <ul>
+          <li class="navigation-line">
+            <a class="link" href="#yoga-classes">Yoga Classes</a>
+          </li>
+          <li class="navigation-line">
+            <a class="link" href="#team">Team</a>
+          </li>
+          <li class="navigation-line">
+            <a class="link" href="#pricing">Pricing</a>
+          </li>
+          <li class="navigation-line">
+            <a class="link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="social-section" id="contacts">
+        <h2 class="heading">Connect With Us</h2>
+        <ul>
+          <li class="social-line">
+            <a class="link" href="https://www.facebook.com/" target="_blank">
+              <svg width="24" height="24">
+                <use href="/images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <p>Facebook</p>
+          </li>
+          <li class="social-line">
+            <a class="link" href="https://www.instagram.com/" target="_blank">
+              <svg width="24" height="24">
+                <use href="/images/icons.svg#icon-insta"></use>
+              </svg>
+            </a>
+            <p>Instagram</p>
+          </li>
+          <li class="social-line">
+            <a class="link" href="https://www.linkedin.com/" target="_blank">
+              <svg width="24" height="24">
+                <use href="/images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+            <p>LinkedIn</p>
+          </li>
+          <li class="social-line">
+            <a class="link" href="https://www.youtube.com/" target="_blank">
+              <svg width="24" height="24">
+                <use href="/images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+            <p>YouTube</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <p class="subscript">&copy; 2025 Yoga Studio. All rights reserved.</p>
   </div>
 </footer>
