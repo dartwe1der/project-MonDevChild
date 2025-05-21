@@ -1,5 +1,6 @@
 .hero {
   width: 100%;
+  background: var(--Color-Scheme-3-Background, #F2FAFA);
 }
 
 .hero-image {

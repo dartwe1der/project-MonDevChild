@@ -125,7 +125,7 @@
     max-width: 343px;
     height: 46px;
 
-    margin: 0 auto;
+   margin: 0 auto; 
     background-color: #C2D9FC;
 }
 
@@ -219,7 +219,7 @@
 
 @media screen and (min-width: 1336px) {
     .container {
-        max-width: 1336px;
+        max-width: 1440px;
         margin: 0 auto;
     }
 

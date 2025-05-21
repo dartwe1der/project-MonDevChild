@@ -1,6 +1,6 @@
 .testimonials-container {
   padding: 64px 16px;
-  background-color: #f2f6fa;
+  background: var(--Color-Scheme-3-Background, #F2FAFA);
 }
 .testimonials-title-main {
   font-weight: 400;
@@ -11,11 +11,21 @@
   color: #0d0b0a;
   margin-bottom: 20px;
 }
+
+.testimonials-list-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.testimonials-list {
+  gap: 24px;
+}
 .testimonials-list-container {
   border-radius: 24px;
   padding: 12px;
   background-color: #dfebeb;
-  margin-bottom: 24px;
+  gap: 32px;
 }
 .testimonials-title-txt {
   font-weight: 400;
