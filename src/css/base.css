@@ -16,10 +16,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
-::before,
-::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  padding: 0;
 }
 
 html {
@@ -27,11 +27,10 @@ html {
 }
 
 body {
-  display: flex;
   align-items: center;
   flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   margin: 0;
 }
 

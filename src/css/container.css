@@ -1,6 +1,6 @@
 /* Styles for Mobile devices */
 .container {
-  min-width: 320px;
+  width: 100%;
   max-width: 375px;
   margin: 0 auto;
   padding: 0 16px;
@@ -10,16 +10,15 @@
   .container {
     max-width: 768px;
     margin: 0 auto;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+    padding: 0 32px;
+}
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1336px) {
   .container {
+    width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding: 0 64px;
   }
 }
