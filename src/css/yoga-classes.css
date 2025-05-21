@@ -2,266 +2,269 @@
 /*section 1*/
 
 .yoga-programs {
-    padding: 64px 0;
-    max-width: 100%;
-    box-sizing: border-box;
-    background-color: #DFEBEB;
+  padding: 64px 16px;
+  width: 100%;
+  background-color: rgba(223, 235, 235, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.yoga-container {
+  max-width: 343px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
 }
 
 /* Центрування секції */
 .section-top {
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 48px;
-
+  max-width: 343px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .section-label {
-    font-family: "Sarabun", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    color: #0D0B0A;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #0d0b0a;
 
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
-
 
 /* Заголовок */
 .section-title {
-    font-family: "Cabin";
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 120%;
-    letter-spacing: 0.01em;
-    text-align: center;
-    color: #0D0B0A;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+  font-family: 'Cabin';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 /* Параграф */
 .section-description {
-    font-family: "Sarabun", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    text-align: center;
-    color: #0D0B0A;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 48px;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
 }
 
 .programs-list {
-    gap: 48px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
 }
 
 .program-card {
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .yoga-img {
-    border-radius: 16px;
-    width: 343px;
-    margin-bottom: 24px;
-   
+  border-radius: 16px;
+  width: 343px;
+  margin-bottom: 24px;
 }
 
 .yoga-card-title {
-    font-family: "Cabin";
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 140%;
-    letter-spacing: 0.01em;
-    text-align: center;
-    color: #0D0B0A;
-    margin-bottom: 20px;
+  font-family: 'Cabin';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 20px;
+}
+
+.yoga-programs .extra-text {
+  display: initial;
 }
 
 .yoga-par {
-    font-family: "Sarabun";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    text-align: center;
-    color: #0D0B0A;
-    justify-content: flex-end;
+  font-family: 'Sarabun';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #0d0b0a;
+  justify-content: flex-end;
 }
-
 
 /* Кнопка */
 .btn-yoga {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-align: center;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
 
-    font-family: "Cabin";
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 160%;
-    color: #0D0B0A;
+  font-family: 'Cabin';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #0d0b0a;
 
-    border: 1px solid #C2D9FC;
-    border-radius: 100px;
-    padding: 10px 16px;
-    width: 100%;
-    max-width: 343px;
-    height: 46px;
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 10px 16px;
+  width: 100%;
+  max-width: 343px;
+  height: 46px;
 
-   margin: 0 auto; 
-    background-color: #C2D9FC;
+  margin: 0 auto;
+  background-color: #c2d9fc;
 }
 
 .btn-span {
-    display: none;
+  display: none;
 }
-
-
 
 /* Наведення */
 .btn-yoga:hover,
 .btn-yoga:focus {
-    background-color: #F2F7FE;
+  background-color: #f2f7fe;
 }
-
 
 @media screen and (min-width: 768px) {
+  .yoga-programs {
+    padding: 40px 32px;
+    background-color: #f2fafa;
+  }
 
-    .container {
-        max-width: 768px;
-        justify-content: center;
-        margin: 0 auto;
-    }
+  .yoga-container {
+    max-width: 704px;
+    gap: 40px;
+  }
+  .section-top {
+    max-width: 704px;
+  }
 
-    .section-top {
-        max-width: 704px;
-    }
+  .section-title {
+    margin-bottom: 24px;
+  }
 
-    .yoga-programs {
-        background-color: #F2FAFA;
-        padding: 40px 32px;
-    }
+  .section-description {
+    font-size: 18px;
+  }
 
-    .section-title {
-        font-size: 48px;
-        max-width: 100%;
-        justify-content: center;
-    }
+  .programs-list {
+    justify-content: center;
+    gap: 24px;
+  }
 
-    .section-description {
-        justify-content: center;
-    }
+  .programs-list-item {
+    width: calc((100% - 24px) / 2);
+    display: flex;
+    justify-content: center;
+  }
 
-    .programs-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 24px;
-    }
+  .programs-list-item-tablet {
+    width: 100%;
+  }
 
-    .programs-list-item {
-        width: calc((100% - 24px) / 2);
-        display: flex;
-        justify-content: center;
+  .yoga-img {
+    width: 100%;
+    margin-bottom: 16px;
+  }
 
-    }
+  .yoga-card-title {
+    margin-bottom: 0;
+  }
 
-    .programs-list-item-tablet {
-        width: 100%;
-    }
+  .yoga-par {
+    justify-content: flex-end;
+  }
 
+  .yoga-programs .extra-text {
+    display: none;
+  }
 
-    .yoga-img {
-        width: 100%;
-    }
+  .btn-span {
+    display: inline;
+    margin-left: 6px;
+  }
 
-
-    .yoga-par {
-        justify-content: flex-end;
-    }
-
-
-
-    .btn-span {
-        display: inline;
-        margin-left: 6px;
-    }
-
-    .btn-yoga {
-        padding: 10px 24px;
-        width: 110px;
-        height: 46px;
-        background-color: #C2D9FC;
-    }
+  .btn-yoga {
+    padding: 10px 24px;
+    width: 110px;
+    height: 46px;
+    background-color: #c2d9fc;
+  }
 }
 
-
-
-
-
-
 @media screen and (min-width: 1336px) {
-    .container {
-        max-width: 1440px;
-        margin: 0 auto;
-    }
+  .yoga-programs {
+    padding: 112px 64px;
+  }
 
-    .section-top {
-        max-width: 768px;
-    }
+  .yoga-container {
+    max-width: 1312px;
+    gap: 40px;
+  }
 
-    .section-title {
-        font-size: 48px;
-        justify-content: center;
-    }
+  .section-top {
+    max-width: 768px;
+  }
+  .section-label {
+    margin-bottom: 16px;
+  }
 
-    .section-description {
-        margin-bottom: 40px;
-        justify-content: center;
-    }
+  .section-title {
+    font-size: 52px;
+  }
 
-    .programs-list {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 48px;
-    }
+  .programs-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
+  .programs-list-item {
+    width: calc((100% - 48px) / 3);
+    /* 3 колонки з 2 проміжками */
+    display: flex;
+    justify-content: center;
+  }
 
-    .programs-list-item {
-        width: calc((100% - 96px) / 3);
-        /* 3 колонки з 2 проміжками */
-        display: flex;
-        justify-content: center;
-    }
+  .yoga-img {
+    margin-bottom: 32px;
+  }
 
-    .btn-yoga {
-        padding: 10px 24px;
-        width: 110px;
-        height: 46px;
-        background-color: #C2D9FC;
-    }
+  .yoga-card-title {
+    margin-bottom: 24px;
+    font-size: 36px;
+  }
 
-    .btn-span {
-        display: inline;
-        margin-left: 6px;
-    }
+  .btn-yoga {
+    padding: 10px 24px;
+    width: 110px;
+    height: 46px;
+    background-color: #c2d9fc;
+  }
+
+  .btn-span {
+    display: inline;
+    margin-left: 6px;
+  }
 }

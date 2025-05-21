@@ -27,7 +27,7 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 120%;
-  letter-spacing: 1%;
+  letter-spacing: 0.01em;
 }
 
 .gallery-title-p {
@@ -75,14 +75,20 @@
    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .gallery-title {
+   max-width: 704px;
+   margin: 0 auto;
+  }
   .gallery-title-h {
-    font-size: 48px;
+   font-size: 48px;
+   max-width: 704px;
+   margin: 0 auto;
   }
 
   .gallery-title-p {
-    font-size: 20px;
-    max-width: 520px;
+   font-size: 18px;
+   max-width: 704px;
+   margin: 0 auto;
   }
 }
 
@@ -93,6 +99,18 @@
    .gallery-container {
       max-width: 1440px;
       padding: 0 64px;
+  }
+  .gallery-title {
+   max-width: 768px;
+   margin: 0 auto;
+  }
+  .gallery-title-h {
+   max-width: 768px;
+   margin: 0 auto;
+  }
+  .gallery-title-p {
+   max-width: 768px;
+   margin: 0 auto;
   }
    .gallery-photo-ul {
       display: grid;
