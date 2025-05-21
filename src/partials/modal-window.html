@@ -1,50 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/modal-window.css" />
-  </head>
-  <body>
-    <div class="backdrop" data-modal="modal1">
-      <div class="modal">
-        <div class="modal-close-btn-div">
-          <button class="modal-close-btn" type="button" data-modal-close="modal1">
-            <svg class="modal-close-icon" width="32" height="32">
-              <use href="/images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-        </div>
-        <div class="modal-menu">
-          <h2 class="modal-join">Join Now!</h2>
-          <p class="modal-session">One Session</p>
-          <h3 class="modal-cost">$10</h3>
-          <div class="modal-form-div-cont">
-            <div class="modal-form-div">
-            <form>
-              <label for="user-name" class="modal-form-name">Your Name</label>
-              <div class="modal-form">
-                <input
-                  type="text"
-                  name="user-name"
-                  id="user-name"
-                  class="modal-form-input modal-form-input-name"
-                  placeholder="Liam"
-                  style="color: rgb(2, 2, 2)"
-                />
-              </div>
-            </form>
+<div class="backdrop" data-modal="modal1">
+  <div class="modal">
+    <div class="modal-close-btn-div">
+      <button class="modal-close-btn" type="button" data-modal-close="modal1">
+        <svg class="modal-close-icon" width="32" height="32">
+          <use href="/images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="modal-menu">
+      <h2 class="modal-join">Join Now!</h2>
+      <p class="modal-session">One Session</p>
+      <h3 class="modal-cost">$10</h3>
+      <div class="modal-form-div-cont">
+        <div class="modal-form-div">
+          <form>
+            <label for="user-name-one" class="modal-form-name">Your Name</label>
+            <div class="modal-form">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name-one"
+                class="modal-form-input modal-form-input-name"
+                placeholder="Liam"
+                style="color: rgb(2, 2, 2)"
+              />
             </div>
-          <div class="modal-form-div-two">
+          </form>
+        </div>
+        <div class="modal-form-div-two">
           <div class="modal-form-div">
             <form>
-              <label for="user-name" class="modal-form-name">Email</label>
+              <label for="user-name-two" class="modal-form-name">Email</label>
               <div class="modal-form">
                 <input
                   type="text"
                   name="user-name"
-                  id="user-name"
+                  id="user-name-two"
                   class="modal-form-input modal-form-input-email"
                   placeholder="hello@yogabloom.com"
                   style="color: black"
@@ -54,14 +45,14 @@
           </div>
           <div class="modal-form-div">
             <form>
-              <label for="user-name" class="modal-form-name"
+              <label for="user-name-three" class="modal-form-name"
                 >Phone number</label
               >
               <div class="modal-form">
                 <input
                   type="text"
                   name="user-name"
-                  id="user-name"
+                  id="user-name-three"
                   class="modal-form-input modal-form-input-phone"
                   placeholder="+380 (95) 123 12 12"
                   style="color: black"
@@ -69,88 +60,89 @@
               </div>
             </form>
           </div>
-          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-checkout-div">
+      <button class="modal-checkout" type="button">Go to checkout</button>
+    </div>
+  </div>
+  <div class="backdrop" data-modal="modal2">
+    <div class="modal">
+      <div class="modal-close-btn-div">
+        <button class="modal-close-btn" type="button" data-modal-close="modal2">
+          <svg class="modal-close-icon" width="32" height="32">
+            <use href="/images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-menu">
+        <h2 class="modal-join">Join Now!</h2>
+        <p class="modal-session">One Session</p>
+        <h3 class="modal-cost">$65</h3>
+        <div class="modal-form-div">
+          <form>
+            <label for="user-name-four" class="modal-form-name"
+              >Your Name</label
+            >
+            <div class="modal-form">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name-four"
+                class="modal-form-input"
+                placeholder="Liam"
+                style="color: black"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="modal-form-div">
+          <form>
+            <label for="user-name-five" class="modal-form-name">Email</label>
+            <div class="modal-form">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name-five"
+                class="modal-form-input"
+                placeholder="hello@yogabloom.com"
+                style="color: black"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="modal-form-div">
+          <form>
+            <label for="user-name-six" class="modal-form-name"
+              >Phone number</label
+            >
+            <div class="modal-form">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name-six"
+                class="modal-form-input"
+                placeholder="+380 (95) 123 12 12"
+                style="color: black"
+              />
+            </div>
+          </form>
         </div>
       </div>
       <div class="modal-checkout-div">
         <button class="modal-checkout" type="button">Go to checkout</button>
       </div>
     </div>
-
-    
-    <div class="backdrop" data-modal="modal2">
-      <div class="modal">
-        <div class="modal-close-btn-div">
-          <button class="modal-close-btn" type="button" data-modal-close="modal2">
-            <svg class="modal-close-icon" width="32" height="32">
-              <use href="/images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-        </div>
-        <div class="modal-menu">
-          <h2 class="modal-join">Join Now!</h2>
-          <p class="modal-session">One Session</p>
-          <h3 class="modal-cost">$65</h3>
-          <div class="modal-form-div">
-            <form>
-              <label for="user-name" class="modal-form-name">Your Name</label>
-              <div class="modal-form">
-                <input
-                  type="text"
-                  name="user-name"
-                  id="user-name"
-                  class="modal-form-input"
-                  placeholder="Liam"
-                  style="color: black"
-                />
-              </div>
-            </form>
-          </div>
-          <div class="modal-form-div">
-            <form>
-              <label for="user-name" class="modal-form-name">Email</label>
-              <div class="modal-form">
-                <input
-                  type="text"
-                  name="user-name"
-                  id="user-name"
-                  class="modal-form-input"
-                  placeholder="hello@yogabloom.com"
-                  style="color: black"
-                />
-              </div>
-            </form>
-          </div>
-          <div class="modal-form-div">
-            <form>
-              <label for="user-name" class="modal-form-name"
-                >Phone number</label
-              >
-              <div class="modal-form">
-                <input
-                  type="text"
-                  name="user-name"
-                  id="user-name"
-                  class="modal-form-input"
-                  placeholder="+380 (95) 123 12 12"
-                  style="color: black"
-                />
-              </div>
-            </form>
-          </div>
-      </div>
-      <div class="modal-checkout-div">
-        <button class="modal-checkout" type="button">Go to checkout</button>
-      </div>
-    </div>
-
-
-
 
     <div class="backdrop" data-modal="modal3">
       <div class="modal">
         <div class="modal-close-btn-div">
-          <button class="modal-close-btn" type="button" data-modal-close="modal3">
+          <button
+            class="modal-close-btn"
+            type="button"
+            data-modal-close="modal3"
+          >
             <svg class="modal-close-icon" width="32" height="32">
               <use href="/images/icons.svg#icon-close"></use>
             </svg>
@@ -162,12 +154,14 @@
           <h3 class="modal-cost">$80</h3>
           <div class="modal-form-div">
             <form>
-              <label for="user-name" class="modal-form-name">Your Name</label>
+              <label for="user-name-seven" class="modal-form-name"
+                >Your Name</label
+              >
               <div class="modal-form">
                 <input
                   type="text"
                   name="user-name"
-                  id="user-name"
+                  id="user-name-seven"
                   class="modal-form-input"
                   placeholder="Liam"
                   style="color: black"
@@ -177,12 +171,12 @@
           </div>
           <div class="modal-form-div">
             <form>
-              <label for="user-name" class="modal-form-name">Email</label>
+              <label for="user-name-eight" class="modal-form-name">Email</label>
               <div class="modal-form">
                 <input
                   type="text"
                   name="user-name"
-                  id="user-name"
+                  id="user-name-eight"
                   class="modal-form-input"
                   placeholder="hello@yogabloom.com"
                   style="color: black"
@@ -192,14 +186,14 @@
           </div>
           <div class="modal-form-div">
             <form>
-              <label for="user-name" class="modal-form-name"
+              <label for="user-name-nine" class="modal-form-name"
                 >Phone number</label
               >
               <div class="modal-form">
                 <input
                   type="text"
                   name="user-name"
-                  id="user-name"
+                  id="user-name-nine"
                   class="modal-form-input"
                   placeholder="+380 (95) 123 12 12"
                   style="color: black"
@@ -207,10 +201,11 @@
               </div>
             </form>
           </div>
-      </div>
-      <div class="modal-checkout-div">
-        <button class="modal-checkout" type="button">Go to checkout</button>
+        </div>
+        <div class="modal-checkout-div">
+          <button class="modal-checkout" type="button">Go to checkout</button>
+        </div>
       </div>
     </div>
-  </body>
-</html>
+  </div>
+</div>
