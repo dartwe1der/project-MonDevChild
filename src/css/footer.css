@@ -125,15 +125,15 @@ footer {
   width: 100%;
   padding: 48px 16px;
   background-color: rgba(223, 235, 235, 1);
-  margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 
 .layout-footer {
   max-width: 375px;
+  width: 100%;
   padding: 32px;
-  margin: 0 auto;
+  margin: 0;
   border: none;
   border-radius: 32px;
   display: flex;
