@@ -308,11 +308,17 @@ li {
     }
     
     .pricing-box{
+        width: 100%;
         max-width: 421.33px;
         height: 509px;
     }
-
+    .pricing-box-third {
+        width: 100%;
+        max-width: 421.33px;
+        height: 509px;
+    }
     .pricing-box-cont {
+        max-width: 1440px;
         margin: 0 auto;
         width: 100%;
     }
