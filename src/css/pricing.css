@@ -16,13 +16,18 @@ li {
     list-style-type: none;
 }
 
+.pricing {
+    background: var(--Color-Scheme-3-Background, #F2FAFA);
+}
+
 .container-pricing {
     width: 100%;
     max-width: 375px;
     min-width: 320px;
     margin-left: auto;
     margin-right: auto;
-    padding: 32px 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -33,7 +38,7 @@ li {
 
 @media screen and (min-width: 1336px) {
     .container-pricing {
-        max-width: 1336px;
+        max-width: 1440px;
     }
 }
 
@@ -79,7 +84,6 @@ li {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    background: #f2fafa;
 }
 
 .pricing-box {
@@ -301,11 +305,7 @@ li {
         height: 509px;
         background: #dfebeb;   
     }
-
-    .container-pricing {
-        max-width: 1440px;
-    }
-
+    
     .pricing-box{
         max-width: 421.33px;
         height: 509px;

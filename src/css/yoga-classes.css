@@ -30,8 +30,6 @@
 }
 
 
-
-
 /* Заголовок */
 .section-title {
     font-family: "Cabin";
@@ -65,7 +63,6 @@
     gap: 48px;
     display: flex;
     flex-wrap: wrap;
-    
     margin-bottom: 48px;
 }
 
@@ -79,7 +76,7 @@
 
 .yoga-img {
     border-radius: 16px;
-    height: 362px;
+    width: 343px;
     margin-bottom: 24px;
    
 }
@@ -128,7 +125,7 @@
     max-width: 343px;
     height: 46px;
 
-    margin: 0 auto;
+   margin: 0 auto; 
     background-color: #C2D9FC;
 }
 
@@ -153,6 +150,10 @@
         margin: 0 auto;
     }
 
+    .section-top {
+        max-width: 704px;
+    }
+
     .yoga-programs {
         background-color: #F2FAFA;
         padding: 40px 32px;
@@ -165,7 +166,6 @@
     }
 
     .section-description {
-        max-width: 540px;
         justify-content: center;
     }
 
@@ -184,24 +184,13 @@
     }
 
     .programs-list-item-tablet {
-width: 100%;
+        width: 100%;
     }
-
-   /* .tablet-img {
-        max-width: 100% 
-    }*/
-
-
 
 
     .yoga-img {
         width: 100%;
     }
-
-   /* .picture {
-        justify-content: center;
-       
-    }*/
 
 
     .yoga-par {
@@ -230,10 +219,13 @@ width: 100%;
 
 @media screen and (min-width: 1336px) {
     .container {
-        max-width: 1336px;
+        max-width: 1440px;
         margin: 0 auto;
     }
 
+    .section-top {
+        max-width: 768px;
+    }
 
     .section-title {
         font-size: 48px;
