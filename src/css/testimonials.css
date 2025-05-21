@@ -89,11 +89,13 @@
   .testimonials-list-container:nth-child(1),
   .testimonials-list-container:nth-child(2) {
     height: 356px;
+    width: 644px;
   }
 
   .testimonials-list-container:nth-child(3),
   .testimonials-list-container:nth-child(4) {
     height: 321px;
+    width: 644px;
   }
 
   .testimonials-title-main {
